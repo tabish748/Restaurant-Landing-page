@@ -1,0 +1,232 @@
+@include media-breakpoint-up(xs) {
+    //480
+
+}
+
+@include media-breakpoint-up(sm) {
+    //576
+
+}
+
+@include media-breakpoint-up(md) {
+    //768
+
+}
+
+@include media-breakpoint-up(lg) {
+    //992
+
+}
+
+@include media-breakpoint-up(xl) {
+    //1200
+
+}
+
+@include media-breakpoint-up(xxl) {
+    //1400
+
+}
+
+/* NON Mobile ----------------- */
+
+@include media-breakpoint-down(xxl) {
+    //1399.98
+
+}
+
+@include media-breakpoint-down(xl) {
+    //1199.98
+
+}
+
+@include media-breakpoint-down(lg) {
+    //991.98
+
+}
+
+@include media-breakpoint-down(md) {
+    //767.98
+
+}
+
+@include media-breakpoint-down(sm) {
+    //575.98
+
+}
+
+@include media-breakpoint-down(xs) {
+    //479.98
+
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:575px) and (min-width:320px) {
+    .resturant-hero-content-wrapper{
+        height: 80vh!important;
+    }
+    .mobcolreverse{
+        flex-direction: column-reverse!important;
+    }
+    .section-heading-wrapper h2 {
+        font-size: 28px !important;
+    }
+
+    .page__wrap .banner-section .banner-sec-inner-parent .banner-content-btn-area {
+        display: block;
+    }
+
+    .page__wrap .banner-section .banner-sec-inner-parent .banner-content-btn-area .content-area {
+        width: 100% !important;
+    }
+
+    .page__wrap .banner-section .banner-sec-inner-parent .banner-content-btn-area .button-area {
+        width: 100% !important;
+        display: flex;
+        justify-content: center !important;
+        padding-top: 20px !important;
+    }
+
+    .navbar-nav {
+        padding: 0 !important;
+    }
+
+    .hero-bg-img,
+    .meta-header__wrap {
+        display: none;
+    }
+
+    .page__wrap .menu-section .menu-sec-inner-parent .menu-sec-cards-listing-wrapper .special-menu-card-wrapper {
+        display: block !important;
+        height: auto !important;
+    }
+
+    .page__wrap .menu-section .menu-sec-inner-parent .menu-sec-cards-listing-wrapper .special-menu-card-wrapper .special-menu-img-wrapper,
+    .page__wrap .menu-section .menu-sec-inner-parent .menu-sec-cards-listing-wrapper .special-menu-card-wrapper .special-menu-content-wrapper {
+        width: 100%;
+    }
+
+    .page__wrap .feature-product-section .featured-product-inner-parent .featured-product-content-area p {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+    .page__wrap .feature-product-section .featured-product-inner-parent .featured-product-content-area h2 {
+        font-size: 28px !important;
+    }
+
+    .page__wrap .resturant-home-section .resturant-hero-inner-parent .resturant-hero-content-wrapper .content-wrapper {
+        width: 100% !important;
+    }
+
+    .page__wrap .resturant-home-section .resturant-hero-inner-parent .resturant-hero-content-wrapper .content-wrapper .hero-sec-btns-area .hero-sec-btn {
+
+        display: block !important;
+        text-align: center !important;
+        margin-bottom: 10px !important;
+    }
+
+    .page__wrap .resturant-home-section .resturant-hero-inner-parent .resturant-hero-content-wrapper .content-wrapper h1 {
+
+        font-size: 40px !important;
+    }
+
+    .page__wrap .resturant-home-section .resturant-hero-inner-parent .resturant-hero-content-wrapper .content-wrapper p {
+        font-size: 16px !important;
+    }
+}
+
+@media all and (max-width:767px) and (min-width:576px) {
+    .mobcolreverse{
+        flex-direction: column-reverse!important;
+    }
+    .meta-header__wrap {
+        display: none;
+    }
+    .page__wrap .testimonial-section .testimonial-section-inner-parent .testimonial-carousel-wrapper .owl-nav .owl-next {
+        position: absolute;
+        right: -3%;
+        top: 35%;
+    }
+
+    .page__wrap .testimonial-section .testimonial-section-inner-parent .testimonial-carousel-wrapper .owl-nav .owl-prev {
+        position: absolute;
+        right: -3%;
+        top: 35%;
+    }
+
+    .hero-bg-img {
+        display: none;
+    }
+}
+
+
+@media all and (max-width:991px) and (min-width:768px) {
+    .hero-bg-img {
+        display: none;
+    }
+
+    .page__wrap .testimonial-section .testimonial-section-inner-parent .testimonial-carousel-wrapper .owl-nav .owl-next {
+        position: absolute;
+        right: -3%;
+        top: 35%;
+    }
+
+    .page__wrap .testimonial-section .testimonial-section-inner-parent .testimonial-carousel-wrapper .owl-nav .owl-prev {
+        position: absolute;
+        left: -3%;
+        top: 35%;
+    }
+}
+
+@media all and (max-width:1199px) and (min-width:992px) {
+    .hero-bg-img {
+        display: none;
+    }
+
+}
+
+@media all and (max-width:2000px) and (min-width:992px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// specific media query for slider
+
+
+@media all and (max-width:1100px) and (min-width:768px) {}

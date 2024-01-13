@@ -1,0 +1,775 @@
+@import "modules/fonts";
+@import "venders/bootstrap/bootstrap";
+@import "modules/base";
+/*---------------------------
+	Header Styling
+----------------------------*/
+@import "modules/header";
+
+
+/*---------------------------
+	Page Styling
+----------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+}
+
+.section-heading-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+    h2 {
+        font-size: 44px;
+        font-weight: 600;
+        text-align: center;
+        color: #000;
+    }
+
+    p {
+        max-width: 520px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 28px;
+        color: #585555;
+        margin-top: 15px
+    }
+}
+
+.page__wrap {
+
+    .hero-section {
+        width: 100%;
+        height: auto;
+        background-color: $color_theme;
+        position: relative;
+
+        .resturant-hero-inner-parent {
+            width: 100%;
+            height: auto;
+
+            .resturant-hero-content-wrapper {
+                width: 100%;
+                height: 600px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 20px;
+
+                .content-wrapper {
+                    width: 85%;
+                    height: auto;
+                    padding: 20px 0;
+
+                    h1 {
+                        font-size: 60px;
+                        text-transform: capitalize;
+                        font-weight: 700;
+                        color: #181818;
+                    }
+
+                    p {
+                        font-size: 19px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-top: 15px;
+                        color: #444444;
+                    }
+
+                    .hero-sec-btns-area {
+                        width: 100%;
+                        height: auto;
+                        margin-top: 30px;
+
+                        .hero-sec-btn {
+                            padding: 9px 26px;
+                            background-color: $btn-theme;
+                            margin-right: 10px;
+                            color: #fff;
+                            border-radius: 2px;
+                            font-size: 18px;
+                        }
+
+                        .book-table {
+                            background-color: transparent !important;
+                            border: 1px solid $btn-theme;
+                            color: $btn-theme;
+                        }
+                    }
+                }
+            }
+        }
+
+        .hero-bg-img {
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            object-fit: cover;
+        }
+    }
+
+    // *******************hero section css end
+
+    // *****************section2 css start
+    .feature-product-section {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        padding: 40px 20px;
+
+        .featured-product-inner-parent {
+            width: 100%;
+            height: auto;
+
+            .featured-img-wrapper {
+                width: 100%;
+                max-height: 420px;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .featured-product-content-area {
+                width: 100%;
+                height: 100%;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+
+                .sec2-content-wrapper {
+                    width: fit-content;
+                    height: fit-content;
+                }
+
+                h2 {
+                    font-size: 44px;
+                    color: #000;
+                }
+
+                p {
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #585555;
+                    margin-top: 20px;
+
+                }
+
+                .hero-sec-btn {
+                    padding: 9px 26px;
+                    background-color: transparent;
+                    margin-right: 10px;
+                    color: $btn-theme;
+                    border-radius: 2px;
+                    font-size: 18px;
+                    border: 1px solid $btn-theme;
+                    display: block;
+                    width: fit-content;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+
+
+
+    // *****************section 2/3 css end
+
+    // ****************menu section css start
+
+
+    .menu-section {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        padding: 40px 20px;
+
+        .menu-sec-inner-parent {
+            width: 100%;
+            height: auto;
+
+            .section-heading-wrapper {
+                width: 100%;
+                height: auto;
+                padding: 10px;
+
+                h2 {
+                    font-size: 44px;
+                    font-weight: 600;
+                    text-align: center;
+                    color: #000;
+
+                }
+
+                p {
+                    max-width: 520px;
+                    text-align: center;
+                    margin: 0 auto;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #585555;
+                    margin-top: 15px
+                }
+            }
+
+            .menu-sec-cards-listing-wrapper {
+                width: 100%;
+                height: auto;
+                padding: 20px 0;
+
+                .menu-card-wrapper {
+                    width: 100%;
+                    height: 290px;
+                    position: relative;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: .5s;
+                    }
+
+                    .our-menu-card-btn {
+                        width: 60%;
+                        padding: 8px;
+                        font-size: 19px;
+                        font-weight: 600;
+                        background: linear-gradient(90.32deg, rgba(255, 255, 255, 0.43) 0.28%, rgba(255, 255, 255, 0.46) 103.91%);
+                        backdrop-filter: blur(12px);
+                        color: #fff;
+                        position: absolute;
+                        bottom: 20px;
+                        left: 50%;
+                        margin-left: -30%;
+                        text-align: center;
+                    }
+                }
+
+                .menu-card-wrapper:hover {
+                    .our-menu-card-btn {
+
+                        background: #fff !important;
+                        backdrop-filter: blur(0px);
+                        color: #000;
+                    }
+
+                    img {
+                        transform: scale(1.2);
+                        transition: .5s;
+                    }
+                }
+
+                // *******
+                .special-menu-card-wrapper {
+                    width: 100%;
+                    height: 196px;
+                    background-color: #ffffff;
+                    display: flex;
+
+                    .special-menu-img-wrapper {
+                        width: 40%;
+                        height: 100%;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .special-menu-content-wrapper {
+                        width: 60%;
+                        height: 100%;
+                        padding: 20px;
+
+                        h3 {
+                            font-size: 24px;
+                            font-weight: 500;
+                        }
+
+                        small {
+                            font-size: 13px;
+                            color: gray;
+                        }
+
+                        p {
+                            font-size: 15px;
+                            line-height: 25.5px;
+                            color: #585555;
+                            margin-top: 15px;
+                        }
+
+                        .submenu-price {
+                            color: #FF8A00 !important;
+                            font-size: 22px;
+                            font-weight: 600;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // ******************************gallery section css start
+    .gallery-section {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        padding: 40px 20px;
+
+        .gallery-inner-parent {
+            width: 100%;
+            height: auto;
+
+            .section-heading-btn-wrapper {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+
+                .section-heading-wrapper {
+                    h2 {
+                        text-align: left;
+                    }
+
+                    p {
+                        margin: 5px 0;
+                        text-align: left;
+                    }
+                }
+
+                .view-all-btn-wrapper {
+                    width: 200px;
+                    height: auto;
+                    background-color: white;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+
+                    a {
+                        min-width: fit-content;
+                        background-color: transparent;
+                        padding: 8px 25px;
+                        margin-bottom: 20px;
+                        color: $btn-theme;
+                        border: 1px solid $btn-theme;
+                        border-radius: 2px;
+                    }
+                }
+            }
+
+            .gallery-img-listing-wrapper {
+                width: 100%;
+                height: auto;
+
+                .gallery-img-wrapper {
+                    width: 100%;
+                    height: 320px;
+                    transition: .5s;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .gallery-img-wrapper:hover {
+                    img {
+                        transform: scale(1.15);
+                        transition: .5s;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .testimonial-section {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        padding: 40px 20px;
+
+        .testimonial-section-inner-parent {
+            width: 100%;
+            height: auto;
+
+            .testimonial-carousel-wrapper {
+                width: 100%;
+                height: auto;
+
+                .owl-nav {
+                    display: block !important;
+                }
+
+                .owl-nav .owl-prev {
+                    position: absolute;
+                    left: -6%;
+                    top: 50%;
+                }
+
+                .owl-nav .owl-next {
+                    position: absolute;
+                    right: -6%;
+                    top: 50%;
+                }
+
+                .testimonial-card-wrapper {
+                    width: 100%;
+                    height: auto;
+                    border: 1px solid #DEDEDE;
+                    padding: 20px;
+
+                    .testimonial-info-area {
+                        width: 100%;
+                        height: auto;
+                        padding: 5px;
+                        display: flex;
+
+                        .img-area {
+                            width: 84px;
+                            height: 84px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .info-wrapper {
+                            width: auto;
+                            height: auto;
+                            padding: 0 15px;
+
+                            h3 {
+                                font-size: 20px;
+                                font-weight: 500;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                color: #7A7B7C;
+                            }
+
+                            .review-area {
+                                width: auto;
+                                height: auto;
+                                margin-top: 7px;
+
+                                .fa-star {
+                                    color: #b5b5b5;
+                                    font-size: 24px;
+                                }
+
+                                .star-active {
+                                    color: #FB8920;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .content-area {
+                        width: 100%;
+                        height: auto;
+                        margin-top: 15px;
+
+                        p {
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: #585555;
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .testimonial-btn-area {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+        .hero-sec-btn {
+            padding: 9px 26px;
+            margin-right: 10px;
+
+            border-radius: 2px;
+            font-size: 18px;
+            background-color: transparent !important;
+            border: 1px solid $btn-theme;
+            color: $btn-theme;
+
+        }
+    }
+
+    // *****************banner section css start
+
+
+    .banner-section {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+
+        .banner-sec-inner-parent {
+            width: 100%;
+            background-color: $color_theme;
+            padding: 40px 20px;
+            height: auto;
+
+            .banner-content-btn-area {
+                width: 100%;
+                height: auto;
+
+                display: flex;
+
+                .content-area {
+                    width: 60%;
+                    height: auto;
+
+                    h2 {
+                        font-size: 38px;
+                        color: #181818;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        color: #5C606B;
+                        margin-top: 20px;
+                        line-height: 30px;
+                    }
+                }
+
+                .button-area {
+                    width: 40%;
+                    height: auto;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    .hero-sec-btn {
+                        padding: 9px 26px;
+                        margin-right: 10px;
+                        border-radius: 2px;
+                        font-size: 18px;
+                        background-color: $btn-theme !important;
+
+                        color: #fff;
+                    }
+                }
+            }
+
+        }
+    }
+
+    // ************************map location section css start
+    .map-location-section {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .map-location-inner-parent {
+        width: 100%;
+        height: auto;
+
+        .map-location-address-content-area {
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+
+            .location-container {
+                width: 100%;
+                height: auto;
+                background-color: whitesmoke;
+            }
+
+            .location-row {
+                width: 100%;
+                height: auto;
+                display: flex;
+
+                .icon-wrapper {
+                    width: 50px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .location-text-wrapper {
+                    width: auto;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                        font-size: 20px;
+                        line-height: 36px;
+                        color: #181818;
+                        padding-left: 10px;
+                        margin: 0;
+
+                        a {
+                            color: $btn-theme;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .map-wrapper {
+            width: 100%;
+            height: 450px;
+            background-color: #b5b5b5;
+
+            iframe {
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+    }
+
+    // ************map section css end
+
+    // ********************for testimonial arows css
+    .owl-carousel {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .owl-nav {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+
+
+    }
+
+    .owl-next,
+    .owl-prev {
+        background-color: white;
+        border: none;
+
+        font: inherit;
+        width: 40px;
+        border-radius: 50%;
+        height: auto;
+
+        color: #333;
+        font-size: 25px;
+        margin: 0px 10px;
+        border: 1px solid gray;
+    }
+
+    .uk-card-primary {
+        border-radius: 8px;
+    }
+
+    h3 {
+        margin-top: 10px
+    }
+
+    .uk-card > :last-child {
+        margin-top: 0;
+        margin-bottom: 10px
+    }
+
+    p {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .owl-theme .owl-nav [class*='owl-'] {
+        background: #383838;
+        width: 50px;
+    }
+
+    .owl-dots {
+        margin-top: 30px;
+    }
+
+    .uk-card-title {
+        padding-bottom: 20px
+    }
+
+}
+
+// page wrapper
+@media all and (max-width:1199px) and (min-width:320px) {
+    .resturant-hero-content-wrapper {
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+    .hero-section {
+        background-image: url(../images/hero-bg.png);
+        background-size: cover;
+        background-position: center;
+        position: relative !important;
+        z-index: 1;
+    }
+
+    .hero-section::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.53);
+        z-index: 0;
+    }
+    .page__wrap .hero-section .resturant-hero-inner-parent .resturant-hero-content-wrapper .content-wrapper {
+        width: 100%!important;
+}
+}
+
+/*---------------------------
+	Footer Styling
+----------------------------*/
+@import "modules/footer";
+
+/*---------------------------
+	Utility Styling
+----------------------------*/
+// @import "modules/utilities";
+@import "venders/aos/aos";
+
+/*---------------------------
+	Media Queries
+----------------------------*/
+@import "modules/media";

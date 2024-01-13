@@ -1,0 +1,105 @@
+.resturant-footer-section {
+    width: 100%;
+    height: auto;
+    background-color: $color_theme;
+    padding: 40px 20px;
+
+    .resturant-footer-inner-parent {
+        width: 100%;
+        height: auto;
+
+        .footer-col-wrapper {
+            width: 100%;
+            height: auto;
+
+            h3 {
+                font-size: 22px;
+            }
+
+            p {
+                color: #3A4453;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin-bottom: 5px;
+                    color: #3A4453;
+                }
+            }
+
+            .sitemap {
+                li {
+                    margin-bottom: 18px;
+                    color: #3A4453;
+                }
+            }
+
+            .footer-social-icon-wrapper {
+                width: 100%;
+                height: auto;
+                display: flex;
+                margin-bottom: 20px;
+
+                .circle-icon-social {
+                    width: 45px;
+                    height: 45px;
+                    background-color: white;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid lightgray;
+                    transition: .5s;
+
+                    span {
+                        font-size: 20px;
+                        color: #82878E;
+                    }
+                }
+
+                .circle-icon-social:hover {
+                    background-color: $btn-theme;
+                    color: #fff !important;
+                    border: 1px solid $btn-theme;
+                    transition: .5s;
+
+                    span {
+                        color: #fff !important;
+                    }
+                }
+            }
+
+            .form-footer-wrapper {
+                width: 90%;
+                height: 50px;
+                display: flex;
+                margin-top: 20px;
+
+                input {
+                    padding: 8px;
+                    font-size: 14px;
+                    color: gray;
+                    letter-spacing: 1px;
+                    width: 80%;
+                    height: 100%;
+                    outline: none;
+                    border: 1px solid lightgray;
+                }
+
+                button {
+                    border: none;
+                    width: 20%;
+                    height: 100%;
+                    background-color: $btn-theme;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
